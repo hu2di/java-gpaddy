@@ -1,0 +1,7 @@
+việtnamg and Writing in the middle of a file is as simple as using
+a RandomAccessFile in Java. RandomAccessFile, despite its name,
+is more like an InputStream and OutputStream and less like a File.
+It allows you to read or seek through bytes in a file and then 
+begin writing over whichever bytes you care to stop at.
+Once you discover this class, it is very easy to use if 
+you have a basic understanding of regular file i/o.
